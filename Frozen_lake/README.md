@@ -1,0 +1,18 @@
+# Solving Frozen_lake using Q Learning
+
+
+
+## Getting Started
+
+The FrozenLake environment consists of a 4x4 grid of blocks, each one either being the start block, the goal block, a safe frozen block, or a dangerous hole. The objective is to have an agent learn to navigate from the start to the goal without moving onto a hole. At any given time the agent can choose to move either up, down, left, or right. The catch is that there is a wind which occasionally blows the agent onto a space they didn’t choose. As such, perfect performance every time is impossible, but learning to avoid the holes and reach the goal are certainly still doable.
+
+
+### Prerequisites
+
+It requires tensorflow, numpy and gym
+
+```
+pip install tensorflow
+pip install numpy
+pip install gym
+```
